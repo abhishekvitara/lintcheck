@@ -5,5 +5,16 @@
 
     "env": {
         "es6": true
+    },
+    "rules": {
+        // enable additional rules
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+
+        // override configuration set by extending "eslint:recommended"
+        "no-empty": "error",
+        "no-cond-assign": ["error", "always"]
     }
 }
