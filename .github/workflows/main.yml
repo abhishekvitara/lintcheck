@@ -21,4 +21,4 @@ jobs:
           extensions: 'js,jsx,ts,tsx'
           annotations: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ESLINT_TOKEN }}
