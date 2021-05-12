@@ -1,5 +1,11 @@
-function n () {
-  const g = 200;
+const simpleObject = {
+	set_val (val) {
+		this.val = val;
+	}
 }
 
-n();
+simpleObject.set_val(19);
+
+for (let i = 0; i < 10; i--) {
+	console.log("hello");
+}
